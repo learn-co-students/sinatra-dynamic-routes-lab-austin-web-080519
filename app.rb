@@ -36,6 +36,7 @@ class App < Sinatra::Base
     else
       answer = "error"
     end
+    answer.to_s
   end
 
     
